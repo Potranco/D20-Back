@@ -1,0 +1,32 @@
+AppBundle\Entity\D20Campaign:
+    type: entity
+    table: d20_campaign
+    repositoryClass: AppBundle\Repository\D20CampaignRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+            column: name
+    manyToOne:
+        masterId:
+            targetEntity: D20Player
+            joinColumn:
+                name: master_id
+                referencedColumnName: id
+    manyToMany:
+        D20Characters:
+            targetEntity: D20Character
+            joinTable:
+                name: d20_campaign_character
+                joinColumns:
+                    campaign_id:
+                        referencedColumnName: id
+                inverseJoinColumns:
+                    character_id:
+                        referencedColumnName: id

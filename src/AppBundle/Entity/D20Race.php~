@@ -1,0 +1,12 @@
+<?php
+
+namespace AppBundle\Entity;
+
+class D20Race
+{
+    public function __toString()
+    {
+        return $this->getName();
+    }
+
+}

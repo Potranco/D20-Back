@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="wrapper">
+        <div id="container">
+            {{ d20character.id }}
+            {{ d20character.name }}
+            {{ d20character.playerId }}
+            {{ d20character.classID }}
+            {{ d20character.raceId }}
+            {{ d20character.deityName }}
+            {{ d20character.age }}
+            {{ d20character.size }}
+            {{ d20character.abilitySTR }}
+            {{ d20character.abilityDEX }}
+            {{ d20character.abilityCON }}
+            {{ d20character.abilityINT }}
+            {{ d20character.abilityWIS }}
+            {{ d20character.abilityCHA }}
+            {{ d20character.savingFortitude }}
+            {{ d20character.savingReflex }}
+            {{ d20character.savingWill }}
+            {{ d20character.baseAttack }}
+            {{ d20character.spellResistance }}
+            {{ d20character.hitPoints }}
+            {{ d20character.armorClass }}
+            {{ d20character.initiative }}
+            {{ d20character.speed }}
+            {{ d20character.damageReduction }}
+
+        </div>
+    </div>
+{% endblock %}

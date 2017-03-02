@@ -1,0 +1,12 @@
+<?php
+
+namespace AppBundle\Entity;
+
+/**
+ * DnDCharacter
+ */
+class DnDCharacter
+{
+
+
+}

@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="wrapper">
+        <div id="container">
+            <a href="create">create new</a>
+            <ul id="navigation">
+                {% for d20character in d20characters %}
+                    <li><a href="{{ d20character.id }}">{{ d20character.name }} {{ d20character.raceId }} {{ d20character.classId }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endblock %}

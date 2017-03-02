@@ -1,0 +1,68 @@
+home:
+    path:      /
+    defaults:  { _controller: AppBundle:Default:index }
+
+_json:
+    resource: routing_json.yml
+
+D20Campaign_List:
+    path:      /d20campaign/
+    defaults:  { _controller: AppBundle:D20Campaign:index, _format: html }
+
+D20Campaign_Create:
+    path:      /d20campaign/create
+    defaults:  { _controller: AppBundle:D20Campaign:create }
+
+D20Campaign_Edit:
+    path:      /d20campaign/{D20CampaignId}
+    defaults:  { _controller: AppBundle:D20Campaign:update }
+
+
+D20Player_List:
+    path:      /d20player/
+    defaults:  { _controller: AppBundle:D20Player:index }
+
+D20Player_Create:
+    path:      /d20player/create
+    defaults:  { _controller: AppBundle:D20Player:create }
+
+D20Player_Edit:
+    path:      /d20player/{D20PlayerId}
+    defaults:  { _controller: AppBundle:D20Player:update }
+
+D20Character_List:
+    path:      /d20character/
+    defaults:  { _controller: AppBundle:D20Character:index }
+
+D20Character_Create:
+    path:      /d20character/create
+    defaults:  { _controller: AppBundle:D20Character:create }
+
+D20Character_Edit:
+    path:      /d20character/{D20CharacterId}
+    defaults:  { _controller: AppBundle:D20Character:update }
+
+D20Race_List:
+    path:      /d20race/
+    defaults:  { _controller: AppBundle:D20Race:index }
+
+D20Race_Create:
+    path:      /d20race/create
+    defaults:  { _controller: AppBundle:D20Race:create }
+
+D20Race_Edit:
+    path:      /d20race/{D20RaceId}
+    defaults:  { _controller: AppBundle:D20Race:update }
+
+D20Class_List:
+    path:      /d20class/
+    defaults:  { _controller: AppBundle:D20Class:index }
+
+D20Class_Create:
+    path:      /d20class/create
+    defaults:  { _controller: AppBundle:D20Class:create }
+
+D20Class_Edit:
+    path:      /d20class/{D20ClassId}
+    defaults:  { _controller: AppBundle:D20Class:update }
+

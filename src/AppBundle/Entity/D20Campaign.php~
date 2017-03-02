@@ -1,0 +1,12 @@
+<?php
+
+namespace AppBundle\Entity;
+
+class D20Campaign
+{
+
+    public function __toString()
+    {
+        return $this->getName();
+    }
+}

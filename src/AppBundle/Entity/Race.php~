@@ -1,0 +1,108 @@
+<?php
+
+namespace AppBundle\Entity;
+
+/**
+ * Race
+ */
+class Race
+{
+
+
+    /**
+     * @var integer
+     */
+    private $id;
+
+    /**
+     * @var string
+     */
+    private $name;
+
+    /**
+     * @var integer
+     */
+    private $size;
+
+    /**
+     * @var integer
+     */
+    private $abilitySTR;
+
+    /**
+     * @var integer
+     */
+    private $abilityDEX;
+
+    /**
+     * @var integer
+     */
+    private $abilityCON;
+
+    /**
+     * @var integer
+     */
+    private $abilityINT;
+
+    /**
+     * @var integer
+     */
+    private $abilityWIS;
+
+    /**
+     * @var integer
+     */
+    private $abilityCHA;
+
+    /**
+     * @var integer
+     */
+    private $savingFortitude;
+
+    /**
+     * @var integer
+     */
+    private $savingReflex;
+
+    /**
+     * @var integer
+     */
+    private $savingWill;
+
+    /**
+     * @var integer
+     */
+    private $baseAttack;
+
+    /**
+     * @var integer
+     */
+    private $spellResistance;
+
+    /**
+     * @var integer
+     */
+    private $hitPoints;
+
+    /**
+     * @var integer
+     */
+    private $armorClass;
+
+    /**
+     * @var integer
+     */
+    private $initiative;
+
+    /**
+     * @var integer
+     */
+    private $speed;
+
+    /**
+     * @var integer
+     */
+    private $damageReduction;
+
+
+}

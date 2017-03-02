@@ -1,0 +1,12 @@
+D20Campaign_ListJSON:
+    path:      /json/d20campaign/
+    defaults:  { _controller: AppBundle:D20Campaign:index, _format: json }
+
+D20Player_ListJSON:
+    path:      /json/d20player/
+    defaults:  { _controller: AppBundle:D20Player:index, _format: json }
+
+D20Player_CreateJSON:
+    path:      /json/d20player/create
+    defaults:  { _controller: AppBundle:D20Player:create }
+    methods:  [POST]

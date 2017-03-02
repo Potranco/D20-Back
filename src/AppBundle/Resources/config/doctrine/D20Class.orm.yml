@@ -1,0 +1,16 @@
+AppBundle\Entity\D20Class:
+    type: entity
+    table: d20_class
+    repositoryClass: AppBundle\Repository\D20ClassRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+            column: name
+    lifecycleCallbacks: {  }

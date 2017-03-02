@@ -1,0 +1,5 @@
+<ul id="navigation">
+    {% for D20Player in D20Players %}
+        <li><a href="{{ D20Player.id }}">{{ D20Player.name }} {{ D20Player.email }} </a></li>
+    {% endfor %}
+</ul>

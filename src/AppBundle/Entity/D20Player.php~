@@ -1,0 +1,12 @@
+<?php
+
+namespace AppBundle\Entity;
+
+class D20Player
+{
+    public function __toString()
+    {
+        return $this->getName();
+    }
+
+}

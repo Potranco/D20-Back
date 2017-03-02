@@ -1,0 +1,105 @@
+<?php
+
+namespace AppBundle\Entity;
+
+/**
+ * Player
+ */
+class Player
+{
+    /**
+     * @var int
+     */
+    private $id;
+
+    /**
+     * @var string
+     */
+    private $name;
+
+
+    /**
+     * Get id
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set name
+     *
+     * @param string $name
+     *
+     * @return Player
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * Get name
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    public function __toString()
+    {
+        return $this->getName();
+    }
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     */
+    private $caompaigns;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->caompaigns = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    /**
+     * Add caompaign
+     *
+     * @param \AppBundle\Entity\Campaign $caompaign
+     *
+     * @return Player
+     */
+    public function addCaompaign(\AppBundle\Entity\Campaign $caompaign)
+    {
+        $this->caompaigns[] = $caompaign;
+
+        return $this;
+    }
+
+    /**
+     * Remove caompaign
+     *
+     * @param \AppBundle\Entity\Campaign $caompaign
+     */
+    public function removeCaompaign(\AppBundle\Entity\Campaign $caompaign)
+    {
+        $this->caompaigns->removeElement($caompaign);
+    }
+
+    /**
+     * Get caompaigns
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getCaompaigns()
+    {
+        return $this->caompaigns;
+    }
+}

@@ -1,0 +1,67 @@
+AppBundle\Entity\D20Race:
+    type: entity
+    table: d20_race
+    repositoryClass: AppBundle\Repository\D20RaceRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+            column: name
+        size:
+            type: integer
+            column: size
+        abilitySTR:
+            type: integer
+            column: ability_str
+        abilityDEX:
+            type: integer
+            column: ability_dex
+        abilityCON:
+            type: integer
+            column: CON
+        abilityINT:
+            type: integer
+            column: ability_int
+        abilityWIS:
+            type: integer
+            column: ability_wis
+        abilityCHA:
+            type: integer
+            column: ability_cha
+        savingFortitude:
+            type: integer
+            column: ability_fortitude
+        savingReflex:
+            type: integer
+            column: ability_reflex
+        savingWill:
+            type: integer
+            column: ability_will
+        baseAttack:
+            type: integer
+            column: base_attack
+        spellResistance:
+            type: integer
+            column: spell_resistance
+        hitPoints:
+            type: integer
+            column: hit_points
+        armorClass:
+            type: integer
+            column: armor_class
+        initiative:
+            type: integer
+            column: initiative
+        speed:
+            type: integer
+            column: speed
+        damageReduction:
+            type: integer
+            column: damage_reduction
+    lifecycleCallbacks: {  }
