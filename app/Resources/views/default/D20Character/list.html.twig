@@ -5,8 +5,8 @@
         <div id="container">
             <a href="create">create new</a>
             <ul id="navigation">
-                {% for d20character in d20characters %}
-                    <li><a href="{{ d20character.id }}">{{ d20character.name }} {{ d20character.raceId }} {{ d20character.classId }}</a></li>
+                {% for D20character in D20characters %}
+                    <li><a href="{{ D20character.id }}">{{ D20character.name }} {{ D20character.raceId }} {{ D20character.classId }}</a></li>
                 {% endfor %}
             </ul>
         </div>

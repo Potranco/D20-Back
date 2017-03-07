@@ -11,14 +11,14 @@ class D20CampaignController extends D20Controller
 
     public function indexAction(Request $request)
     {
-        $Campaigns = $this->getDoctrine()
+        $D20Campaigns = $this->getDoctrine()
             ->getRepository('AppBundle:D20Campaign')
             ->findAll();
 
         $data = array(
             'format' => $request->getRequestFormat(),
-            'template' => 'default/D20Campaign/list.html.twig',
-            'Campaigns' => $Campaigns,
+            'template' => 'D20Campaign/list',
+            'D20Campaigns' => $D20Campaigns,
         );
         return $this->response($data);
     }
@@ -31,13 +31,22 @@ class D20CampaignController extends D20Controller
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            return $this->persist($form);
+            $this->persist($form);
+            $data = array(
+                'format' => $request->getRequestFormat(),
+                'template' => 'D20Campaign/created',
+                'D20Campaign' => $D20Campaign,
+            );
         }
-
-        return $this->render('default/D20Campaign/create.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
-            'form' => $form->createView(),
-        ]);
+        else
+        {
+            $data = array(
+                'format' => $request->getRequestFormat(),
+                'template' => 'D20Campaign/create',
+                'form' => $form->createView(),
+            );
+        }
+        return $this->response($data);
     }
 
     public function updateAction($D20CampaignId, Request $request)
@@ -46,37 +55,31 @@ class D20CampaignController extends D20Controller
             ->getRepository('AppBundle:D20Campaign')
             ->find($D20CampaignId);
 
-
-        $form = $this->createForm(D20CampaignType::class, $D20Campaign);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-            return $this->persist($form);
-        }
-
         if (!$D20Campaign) {
             throw $this->createNotFoundException(
                 'No product found for id '.$D20CampaignId
             );
         }
 
-        return $this->render('default/D20Campaign/create.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
-            'form' => $form->createView(),
-            'D20Campaign' => $D20Campaign,
-          //  'D20Characters' => $D20Characters,
-        ]);
-    }
+        $form = $this->createForm(D20CampaignType::class, $D20Campaign);
+        $form->handleRequest($request);
 
-    private function persist($form)
-    {
-        $D20Campaign = $form->getData();
-        $em = $this->getDoctrine()->getManager();
-        $em->persist($D20Campaign);
-        $em->flush();
-        return $this->render('default/D20Campaign/created.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
-            'D20Campaign' => $D20Campaign,
-        ]);
+        if ($form->isSubmitted() && $form->isValid()) {
+            $this->persist($form);
+            $data = array(
+                'format' => $request->getRequestFormat(),
+                'template' => 'D20Campaign/created',
+                'D20Campaign' => $D20Campaign,
+            );
+        }
+        else
+        {
+            $data = array(
+                'format' => $request->getRequestFormat(),
+                'template' => 'D20Campaign/create',
+                'form' => $form->createView(),
+            );
+        }
+        return $this->response($data);
     }
 }

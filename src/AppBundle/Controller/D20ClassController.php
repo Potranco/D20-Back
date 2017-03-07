@@ -2,23 +2,24 @@
 
 namespace AppBundle\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use AppBundle\Form\D20ClassType;
 use AppBundle\Entity\D20Class;
 
-class D20ClassController extends Controller
+class D20ClassController extends D20Controller
 {
 
-    public function indexAction()
+    public function indexAction(Request $request)
     {
         $D20Class = $this->getDoctrine()
             ->getRepository('AppBundle:D20Class')
             ->findAll();
-        return $this->render('default/D20Class/list.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
+        $data = array(
+            'format' => $request->getRequestFormat(),
+            'template' => 'D20Class/list',
             'D20Classes' => $D20Class,
-        ]);
+        );
+        return $this->response($data);
     }
 
     public function createAction(Request $request)
@@ -28,13 +29,22 @@ class D20ClassController extends Controller
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            return $this->persist($form);
+            $this->persist($form);
+            $data = array(
+                'format' => $request->getRequestFormat(),
+                'template' => 'D20Class/created',
+                'D20Class' => $D20Class,
+            );
         }
-
-        return $this->render('default/D20Class/create.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
-            'form' => $form->createView(),
-        ]);
+        else
+        {
+            $data = array(
+                'format' => $request->getRequestFormat(),
+                'template' => 'D20Class/create',
+                'form' => $form->createView(),
+            );
+        }
+        return $this->response($data);
     }
 
     public function updateAction($D20ClassId, Request $request)
@@ -43,34 +53,31 @@ class D20ClassController extends Controller
             ->getRepository('AppBundle:D20Class')
             ->find($D20ClassId);
 
-        $form = $this->createForm(D20ClassType::class, $D20Class);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-            return $this->persist($form);
-        }
-
         if (!$D20Class) {
             throw $this->createNotFoundException(
                 'No product found for id '.$D20ClassId
             );
         }
 
-        return $this->render('default/D20Class/create.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
-            'form' => $form->createView(),
-        ]);
-    }
+        $form = $this->createForm(D20ClassType::class, $D20Class);
+        $form->handleRequest($request);
 
-    private function persist($form)
-    {
-        $D20Class = $form->getData();
-        $em = $this->getDoctrine()->getManager();
-        $em->persist($D20Class);
-        $em->flush();
-        return $this->render('default/D20Class/created.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
-            'D20Class' => $D20Class,
-        ]);
+        if ($form->isSubmitted() && $form->isValid()) {
+            $this->persist($form);
+            $data = array(
+                'format' => $request->getRequestFormat(),
+                'template' => 'D20Class/created',
+                'D20Class' => $D20Class,
+            );
+        }
+        else
+        {
+            $data = array(
+                'format' => $request->getRequestFormat(),
+                'template' => 'D20Class/create',
+                'form' => $form->createView(),
+            );
+        }
+        return $this->response($data);
     }
 }

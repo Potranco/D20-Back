@@ -16,7 +16,7 @@ class D20PlayerController extends D20Controller
 
         $data = array(
             'format' => $request->getRequestFormat(),
-            'template' => 'default/D20Player/list.html.twig',
+            'template' => 'D20Player/list',
             'D20Players' => $D20players,
         );
         return $this->response($data);
@@ -29,13 +29,22 @@ class D20PlayerController extends D20Controller
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            return $this->persist($form);
+            $this->persist($form);
+            $data = array(
+                'format' => $request->getRequestFormat(),
+                'template' => 'D20Player/created',
+                'D20Player' => $D20player,
+            );
         }
-            // replace this example code with whatever you need
-        return $this->render('default/D20Player/create.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
-            'form' => $form->createView(),
-        ]);
+        else
+        {
+            $data = array(
+                'format' => $request->getRequestFormat(),
+                'template' => 'D20Player/create',
+                'form' => $form->createView(),
+            );
+        }
+        return $this->response($data);
     }
 
     public function updateAction($D20PlayerId, Request $request)
@@ -44,34 +53,32 @@ class D20PlayerController extends D20Controller
             ->getRepository('AppBundle:D20Player')
             ->find($D20PlayerId);
 
-        $form = $this->createForm(D20PlayerType::class, $D20player);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-            return $this->persist($form);
-        }
-
         if (!$D20player) {
             throw $this->createNotFoundException(
                 'No product found for id '.$D20PlayerId
             );
         }
 
-        return $this->render('default/D20Player/create.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
-            'form' => $form->createView(),
-        ]);
-    }
 
-    private function persist($form)
-    {
-        $D20player = $form->getData();
-        $em = $this->getDoctrine()->getManager();
-        $em->persist($D20player);
-        $em->flush();
-        return $this->render('default/D20Player/created.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
-            'D20Player' => $D20player,
-        ]);
+        $form = $this->createForm(D20PlayerType::class, $D20player);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $this->persist($form);
+            $data = array(
+                'format' => $request->getRequestFormat(),
+                'template' => 'D20Player/created',
+                'D20Player' => $D20player,
+            );
+        }
+        else
+        {
+            $data = array(
+                'format' => $request->getRequestFormat(),
+                'template' => 'D20Player/create',
+                'form' => $form->createView(),
+            );
+        }
+        return $this->response($data);
     }
 }
