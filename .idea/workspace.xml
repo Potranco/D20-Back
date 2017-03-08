@@ -55,7 +55,7 @@
     <file path="/list.json.twig" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488405861513" ignored="false" />
     <file path="/D20Controller.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1489006738647" ignored="false" />
     <file path="/json.twig" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488489914537" ignored="false" />
-    <file path="/Dummy.txt" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1489009770896" ignored="false" />
+    <file path="/Dummy.txt" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1489009873938" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Request.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488927208557" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488927208557" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Response.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488927208557" ignored="false" />
@@ -134,7 +134,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="2" selection-start="250" selection-end="250" vertical-scroll-proportion="0.31591174">
+            <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -351,7 +351,11 @@
       <created>1489009780017</created>
       <updated>1489009780017</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="preparando autentificacion con OAuth">
+      <created>1489009876893</created>
+      <updated>1489009876893</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -553,7 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="250" selection-end="250" vertical-scroll-proportion="0.31591174">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
