@@ -47,6 +47,15 @@ doctrine:
         naming_strategy: doctrine.orm.naming_strategy.underscore
         auto_mapping: true
 
+fos_oauth_server:
+    db_driver: orm
+    client_class:        AppBundle\Entity\OAuthClient
+    access_token_class:  AppBundle\Entity\OAuthAccessToken
+    refresh_token_class: AppBundle\Entity\OAuthRefreshToken
+    auth_code_class:     AppBundle\Entity\OAuthAuthCode
+    service:
+        user_provider: fos_user.user_provider.username
+
 swiftmailer:
     transport: "%mailer_transport%"
     host:      "%mailer_host%"

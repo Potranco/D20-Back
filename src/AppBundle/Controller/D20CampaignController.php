@@ -8,7 +8,6 @@ use AppBundle\Entity\D20Campaign;
 
 class D20CampaignController extends D20Controller
 {
-
     public function indexAction(Request $request)
     {
         $D20Campaigns = $this->getDoctrine()

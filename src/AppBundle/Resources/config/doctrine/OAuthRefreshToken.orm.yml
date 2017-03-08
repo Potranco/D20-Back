@@ -1,0 +1,33 @@
+AppBundle\Entity\OAuthRefreshToken:
+    type: entity
+    table: o_auth_refresh_token
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        token:
+            type: string
+            length: 255
+            column: token
+        expiresAt:
+            type: integer
+            column: expires_at
+        scope:
+            type: string
+            length: 255
+            column: scope
+    manyToOne:
+            userId:
+                targetEntity: D20Player
+                joinColumn:
+                    name: user_id
+                    referencedColumnName: id
+            clientId:
+                targetEntity: OAuthClient
+                joinColumn:
+                    name: client_id
+                    referencedColumnName: id
+    lifecycleCallbacks: {  }
