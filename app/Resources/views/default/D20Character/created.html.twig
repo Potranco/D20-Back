@@ -1,8 +1,6 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div id="wrapper">
-        <div id="container">
             {{ D20character.id }}
             {{ D20character.name }}
             {{ D20character.playerId }}
@@ -27,7 +25,4 @@
             {{ D20character.initiative }}
             {{ D20character.speed }}
             {{ D20character.damageReduction }}
-
-        </div>
-    </div>
 {% endblock %}

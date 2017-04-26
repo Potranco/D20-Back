@@ -3,30 +3,32 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
         <style>
-            body { background: #F5F5F5; font: 18px/1.5 sans-serif; }
-            p { margin: 0 0 1em 0; }
-            a { color: #0000F0; }
-            a:hover { text-decoration: none; }
-            #wrapper { background: #FFF; margin: 1em auto; max-width: 800px; width: 95%; }
-            #container { padding: 2em; }
         {% block stylesheets %}{% endblock %}
         </style>
 
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
-    <ul>
-        <li><a href="{{ path('D20Campaign_List') }}">Campaigns</a></li>
-        <li><a href="{{ path('D20Player_List') }}">Players</a></li>
-        <li><a href="{{ path('D20Character_List') }}">Characters</a></li>
-    </ul>
-    <ul>
-        <li><a href="{{ path('D20Race_List') }}">Races</a></li>
-        <li><a href="{{ path('D20Class_List') }}">Classes</a></li>
-        <li><a href="{{ path('D20Item_List') }}">Items</a></li>
-    </ul>
+    <div class="header">
+        D20 Back End.
+    </div>
+    <div class="sidebar">
+        <ul>
+            <li><a href="{{ path('D20Campaign_List') }}">Campaigns</a></li>
+            <li><a href="{{ path('D20Player_List') }}">Players</a></li>
+            <li><a href="{{ path('D20Character_List') }}">Characters</a></li>
+        </ul>
+        <ul>
+            <li><a href="{{ path('D20Race_List') }}">Races</a></li>
+            <li><a href="{{ path('D20Class_List') }}">Classes</a></li>
+            <li><a href="{{ path('D20Item_List') }}">Items</a></li>
+        </ul>
+    </div>
+    <div id="wrapper">
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
+    </div>
     </body>
 </html>
