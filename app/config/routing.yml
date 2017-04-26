@@ -72,3 +72,15 @@ D20Class_Edit:
     path:      /d20class/{D20ClassId}
     defaults:  { _controller: AppBundle:D20Class:update }
 
+D20Item_List:
+    path:      /d20item/
+    defaults:  { _controller: AppBundle:D20Item:index }
+
+D20Item_Create:
+    path:      /d20item/create
+    defaults:  { _controller: AppBundle:D20Item:create }
+
+D20Item_Edit:
+    path:      /d20item/{D20ClassId}
+    defaults:  { _controller: AppBundle:D20Item:update }
+

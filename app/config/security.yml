@@ -36,5 +36,5 @@ security:
             # form_login: ~
             # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
 
-    access_control:
-            - { path: ^/json, roles: [ IS_AUTHENTICATED_FULLY ] }
+#    access_control:
+#            - { path: ^/json, roles: [ IS_AUTHENTICATED_FULLY ] }
