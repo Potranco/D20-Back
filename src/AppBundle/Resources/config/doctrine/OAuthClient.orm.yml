@@ -1,0 +1,27 @@
+AppBundle\Entity\OAuthClient:
+    type: entity
+    table: o_auth_client
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        randomId:
+            type: string
+            length: 255
+            column: random_id
+        secret:
+            type: string
+            length: 255
+            column: secret
+        redirectUrls:
+            type: string
+            length: 255
+            column: redirect_urls
+        allowedGrantTypes:
+            type: string
+            length: 255
+            column: allowed_grant_types
+    lifecycleCallbacks: {  }

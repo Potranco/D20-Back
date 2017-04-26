@@ -1,25 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" name="Default" comment="" />
+    <list default="true" id="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Campaign/create.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Campaign/create.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Character/create.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Character/create.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Class/create.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Class/create.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Item/create.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Item/create.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Player/create.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Player/create.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Race/create.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Race/create.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Campaign/created.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Campaign/created.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Character/created.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Character/created.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Class/created.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Class/created.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Item/created.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Item/created.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Player/created.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Player/created.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Race/created.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Race/created.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Campaign/list.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Campaign/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Character/list.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Character/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Class/list.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Class/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Item/list.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Item/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Player/list.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Player/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/D20Race/list.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/D20Race/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="dand.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/parameters.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486504433278" ignored="false" />
-    <file path="/routing.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488404160665" ignored="false" />
+    <file path="/routing.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1493242380152" ignored="false" />
     <file path="/PlayerController.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486508907407" ignored="false" />
     <file path="/create.html.twig" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486852495251" ignored="false" />
     <file path="/PlayerType.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486586536525" ignored="false" />
-    <file path="/created.html.twig" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488321461153" ignored="false" />
-    <file path="/list.html.twig" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488321047602" ignored="false" />
-    <file path="/a.dummy" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488319867140" ignored="false" />
+    <file path="/created.html.twig" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1493242300225" ignored="false" />
+    <file path="/list.html.twig" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1493242323753" ignored="false" />
+    <file path="/a.dummy" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1489008357314" ignored="false" />
     <file path="/D20Character.orm.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488319595820" ignored="false" />
-    <file path="/D20CharacterController.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486664121290" ignored="false" />
+    <file path="/D20CharacterController.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488925004623" ignored="false" />
     <file path="/D20CharacterType.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486851291476" ignored="false" />
     <file path="/Race.orm.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486589643147" ignored="false" />
     <file path="/RaceRepository.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486589734943" ignored="false" />
-    <file path="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488403578494" ignored="false" />
     <file path="/RaceController.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486590417916" ignored="false" />
-    <file path="/base.html.twig" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488320321188" ignored="false" />
+    <file path="/base.html.twig" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1493242803553" ignored="false" />
     <file path="/D20Character.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486833012433" ignored="false" />
     <file path="/Campaign.orm.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488319579972" ignored="false" />
     <file path="/Player.orm.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488319635612" ignored="false" />
@@ -31,15 +52,14 @@
     <file path="$PROJECT_DIR$/var/cache/dev/twig/75/756fc371fb7c55d352cbc245a2381782c39355a0a640be4449960865789a06b2.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486834928069" ignored="false" />
     <file path="$PROJECT_DIR$/var/cache/dev/twig/19/197b6327fc4a6e66fb300ed43c8413800c558f96388ca0a821c32dc16fd649ec.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486834928069" ignored="false" />
     <file path="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486834941319" ignored="false" />
-    <file path="$PROJECT_DIR$/var/logs/dev.log" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488403578494" ignored="false" />
     <file path="$PROJECT_DIR$/var/cache/dev/twig/c2/c2b0f52b215dc592ecc492a6aaf86ca920dd45cca7f569eb75734db68048009d.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486835210302" ignored="false" />
     <file path="/AbilityType.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486851224670" ignored="false" />
     <file path="/fields.html.twig" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1486851663780" ignored="false" />
     <file path="/D20Campaign.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488307423073" ignored="false" />
     <file path="/D20CampaignType.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488307496164" ignored="false" />
     <file path="/D20CampaignRepository.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488307529344" ignored="false" />
-    <file path="/D20PlayerController.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488490875481" ignored="false" />
-    <file path="/D20Player.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488318527059" ignored="false" />
+    <file path="/D20PlayerController.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488924278661" ignored="false" />
+    <file path="/D20Player.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1489005750045" ignored="false" />
     <file path="/D20Race.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488318746444" ignored="false" />
     <file path="/D20PlayerType.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488318793599" ignored="false" />
     <file path="/D20RaceType.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488318829707" ignored="false" />
@@ -50,10 +70,34 @@
     <file path="/D20RaceController.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488320465483" ignored="false" />
     <file path="/routing_json.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488491193421" ignored="false" />
     <file path="/AppKernel.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488404013523" ignored="false" />
-    <file path="/D20CampaignController.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488490249970" ignored="false" />
+    <file path="/D20CampaignController.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488925031795" ignored="false" />
     <file path="/list.json.twig" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488405861513" ignored="false" />
-    <file path="/D20Controller.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488490021234" ignored="false" />
+    <file path="/D20Controller.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1489006738647" ignored="false" />
     <file path="/json.twig" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488489914537" ignored="false" />
+    <file path="/Dummy.txt" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1493242611297" ignored="false" />
+    <file path="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Request.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488927208557" ignored="false" />
+    <file path="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488927208557" ignored="false" />
+    <file path="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Response.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488927208557" ignored="false" />
+    <file path="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/AbstractType.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488927208557" ignored="false" />
+    <file path="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerAwareTrait.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488927208557" ignored="false" />
+    <file path="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/KernelInterface.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488927208557" ignored="false" />
+    <file path="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormTypeInterface.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488927208557" ignored="false" />
+    <file path="/AccessToken.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488998049334" ignored="false" />
+    <file path="/RefreshToken.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488998172726" ignored="false" />
+    <file path="/AuthCode.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488998247815" ignored="false" />
+    <file path="/config.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1488998444927" ignored="false" />
+    <file path="/OauthAccessToken.orm.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1489007885419" ignored="false" />
+    <file path="/OAuthClient.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1489005797836" ignored="false" />
+    <file path="/OAuthClient.orm.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1489008042785" ignored="false" />
+    <file path="/OAuthRefreshToken.orm.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1489006244053" ignored="false" />
+    <file path="/security.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1490131068757" ignored="false" />
+    <file path="/OAuthAccessToken.orm.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1489009757982" ignored="false" />
+    <file path="/.gitignore" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1489010115509" ignored="false" />
+    <file path="/D20Item.orm.yml" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1493241541625" ignored="false" />
+    <file path="/D20Item.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1493241986355" ignored="false" />
+    <file path="/D20ItemRepository.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1493242028576" ignored="false" />
+    <file path="/D20ItemType.php" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1493242088200" ignored="false" />
+    <file path="/style.css" changelist="dd65bdea-1d4c-4134-8d85-0c691bab5aa5" time="1493243977909" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,97 +117,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routing_json.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing_json.yml">
+      <file leaf-file-name="created.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Class/created.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <file leaf-file-name="list.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Class/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="586" selection-end="696" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="-7.1923075">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="D20CampaignController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/D20CampaignController.php">
+      <file leaf-file-name="create.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Player/create.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="387" selection-end="578" vertical-scroll-proportion="-14.384615">
-              <folding>
-                <element signature="e#40#85#0" expanded="true" />
-              </folding>
+            <state line="6" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.9230769">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="D20PlayerController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/D20PlayerController.php">
+      <file leaf-file-name="created.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Player/created.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="0.52934134">
-              <folding>
-                <element signature="e#40#85#0" expanded="true" />
-              </folding>
+            <state line="6" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="-3.9230769">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <file leaf-file-name="list.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Player/list.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="-3.2692308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Race/create.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.9230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="created.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Race/created.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="-14.384615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="73" selection-start="260" selection-end="260" vertical-scroll-proportion="0.08">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Race/list.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="-7.1923075">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playerlist.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Player/playerlist.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="D20Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/D20Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="41" selection-start="423" selection-end="423" vertical-scroll-proportion="-13.076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="json.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/json.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="D20Campaign.orm.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/config/doctrine/D20Campaign.orm.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="29" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="D20CampaignType.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/D20CampaignType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="42" selection-start="719" selection-end="719" vertical-scroll-proportion="-14.384615">
-              <folding>
-                <element signature="e#34#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="12" selection-start="383" selection-end="390" vertical-scroll-proportion="-10.88">
               <folding />
             </state>
           </provider>
@@ -176,36 +214,44 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Player/list.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Player/playerlist.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Form/D20PlayerType.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Player/created.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Form/D20CharacterType.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Character/created.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Form/D20CampaignType.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Campaign/create.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/D20Campaign/created.html.twig" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Campaign/list.json.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/json.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/D20Controller.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/D20CampaignController.php" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/app/config/routing_json.yml" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/D20PlayerController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Campaign/list.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Character/create.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Character/created.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Character/list.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Class/create.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Class/created.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Class/list.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Player/create.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Player/created.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Player/list.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Race/create.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Race/created.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/D20Race/list.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1932" />
+    <option name="height" value="1055" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -260,7 +306,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,80 +357,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dand" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dand" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doctrine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dand" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dand" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dand" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dand" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -429,6 +419,156 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="D20Race" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="D20Player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="D20Item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="D20Class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="D20Character" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -487,19 +627,19 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\dand\app\Resources\views\default\D20Item" />
       <recent name="D:\wamp64\www\dand\src\AppBundle\Controller" />
-      <recent name="D:\wamp64\www\dand\app\Resources\views\default\D20Campaign" />
-      <recent name="D:\wamp64\www\dand\app\config" />
-      <recent name="D:\wamp64\www\dand\app\Resources\views\default\D20Player" />
-      <recent name="D:\wamp64\www\dand\app\Resources\views\default\player" />
+      <recent name="D:\wamp64\www\dand\src\AppBundle\Form" />
+      <recent name="D:\wamp64\www\dand\src\AppBundle\Repository" />
+      <recent name="D:\wamp64\www\dand\src\AppBundle\Entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wamp64\www\dand\app\Resources\views\default" />
@@ -539,29 +679,63 @@
       <created>1486504322456</created>
       <updated>1486504322456</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactor Controllers para extender D20Controller">
+      <created>1488925831014</created>
+      <updated>1488925831014</updated>
+    </task>
+    <task id="LOCAL-00002" summary="preparando autentificacion con OAuth">
+      <created>1489009321592</created>
+      <updated>1489009321592</updated>
+    </task>
+    <task id="LOCAL-00003" summary="preparando autentificacion con OAuth">
+      <created>1489009331426</created>
+      <updated>1489009331426</updated>
+    </task>
+    <task id="LOCAL-00004" summary="preparando autentificacion con OAuth">
+      <created>1489009780017</created>
+      <updated>1489009780017</updated>
+    </task>
+    <task id="LOCAL-00005" summary="preparando autentificacion con OAuth">
+      <created>1489009876893</created>
+      <updated>1489009876893</updated>
+    </task>
+    <task id="LOCAL-00006" summary="preparando autentificacion con OAuth">
+      <created>1489009927229</created>
+      <updated>1489009927229</updated>
+    </task>
+    <task id="LOCAL-00007" summary="preparando autentificacion con OAuth">
+      <created>1489010366572</created>
+      <updated>1489010366572</updated>
+    </task>
+    <task id="LOCAL-00008" summary="CRUD de Items">
+      <created>1493242613988</created>
+      <updated>1493242613988</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="2" width="1932" height="1055" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2529412" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -569,8 +743,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -606,7 +780,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD de Items" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -620,128 +794,124 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <confirmMoveToFailedCommit value="1" />
+    <MESSAGE value="Refactor Controllers para extender D20Controller" />
+    <MESSAGE value="preparando autentificacion con OAuth" />
+    <MESSAGE value="CRUD de Items" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/D20Character.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Campaign/created.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="708" column="5" selection-start="11557" selection-end="11557" vertical-scroll-proportion="0.32476637">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Campaign/create.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="10" selection-start="854" selection-end="854" vertical-scroll-proportion="-15.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="59" selection-start="723" selection-end="723" vertical-scroll-proportion="-11.115385">
-          <folding>
-            <element signature="e#7#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="-3.2692308">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Campaign/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Character/create.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Character/created.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1031" selection-end="1031" vertical-scroll-proportion="-17.653847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Character/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Class/create.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Class/created.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Class/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Player/create.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Player/created.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Player/playerlist.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Player/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="12" selection-start="383" selection-end="390" vertical-scroll-proportion="-10.88">
+        <state line="5" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="-3.2692308">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/D20CampaignType.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Race/create.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="42" selection-start="719" selection-end="719" vertical-scroll-proportion="-14.384615">
-          <folding>
-            <element signature="e#34#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/config/doctrine/D20Campaign.orm.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.9230769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Race/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="-7.1923075">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/json.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/D20Race/created.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+        <state line="22" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="-14.384615">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/D20Controller.php">
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="41" selection-start="423" selection-end="423" vertical-scroll-proportion="-13.076923">
+        <state line="4" column="73" selection-start="260" selection-end="260" vertical-scroll-proportion="0.08">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/D20CampaignController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="387" selection-end="578" vertical-scroll-proportion="-14.384615">
-          <folding>
-            <element signature="e#40#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="586" selection-end="696" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing_json.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/D20PlayerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="0.52934134">
-          <folding>
-            <element signature="e#40#85#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <a href="create">create new</a>
+    <ul id="navigation">
+        {% for Item in Items %}
+            <li><a href="{{ Item.id }}">{{ Item.name }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

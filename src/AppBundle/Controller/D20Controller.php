@@ -4,7 +4,6 @@ namespace AppBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-
 class D20Controller extends Controller
 {
     protected function response($data)

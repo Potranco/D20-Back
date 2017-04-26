@@ -8,6 +8,19 @@ security:
             memory: ~
 
     firewalls:
+        oauth_token:
+            pattern:    ^/oauth/v2/token
+            security:   false
+        oauth_authorize:
+            pattern:    ^/oauth/v2/auth
+            # Add your favorite authentication process here
+            http_basic: ~
+        api:
+            pattern:    ^/json
+            fos_oauth:  true
+            stateless:  true
+            anonymous:  true
+
         # disables authentication for assets and the profiler, adapt it according to your needs
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
@@ -22,3 +35,6 @@ security:
 
             # form_login: ~
             # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
+
+#    access_control:
+#            - { path: ^/json, roles: [ IS_AUTHENTICATED_FULLY ] }

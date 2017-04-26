@@ -1,0 +1,19 @@
+AppBundle\Entity\D20Item:
+    type: entity
+    table: d20_item
+    repositoryClass: AppBundle\Repository\D20ItemRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+            column: name
+        description:
+            type: text
+            column: description
+    lifecycleCallbacks: {  }

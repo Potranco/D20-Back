@@ -1,9 +1,6 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div id="wrapper">
-        <div id="container">
-
             <a href="create">create new</a>
 
             <ul id="navigation">
@@ -12,6 +9,4 @@
                     <li><a href="{{ race.id }}">{{ race.name }}</a></li>
                 {% endfor %}
             </ul>
-        </div>
-    </div>
 {% endblock %}

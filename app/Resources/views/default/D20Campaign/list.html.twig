@@ -1,8 +1,6 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div id="wrapper">
-        <div id="container">
 
             <a href="create">create new</a>
 
@@ -12,6 +10,4 @@
                     <li><a href="{{ D20Campaign.id }}">{{ D20Campaign.name }}</a></li>
                 {% endfor %}
             </ul>
-        </div>
-    </div>
 {% endblock %}

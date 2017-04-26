@@ -3,79 +3,77 @@
 namespace AppBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
-use AppBundle\Form\D20CampaignType;
-use AppBundle\Entity\D20Campaign;
+use AppBundle\Form\D20ItemType;
+use AppBundle\Entity\D20Item;
 
-class D20CampaignController extends D20Controller
+class D20ItemController extends D20Controller
 {
     public function indexAction(Request $request)
     {
-        $D20Campaigns = $this->getDoctrine()
-            ->getRepository('AppBundle:D20Campaign')
+        $D20Items = $this->getDoctrine()
+            ->getRepository('AppBundle:D20Item')
             ->findAll();
-
         $data = array(
             'format' => $request->getRequestFormat(),
-            'template' => 'D20Campaign/list',
-            'D20Campaigns' => $D20Campaigns,
+            'template' => 'D20Item/list',
+            'Items' => $D20Items,
         );
         return $this->response($data);
     }
 
     public function createAction(Request $request)
     {
-        $D20Campaign = new D20Campaign();
-
-        $form = $this->createForm(D20CampaignType::class, $D20Campaign);
+        $D20Item = new D20Item();
+        $form = $this->createForm(D20ItemType::class, $D20Item);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
             $this->persist($form);
             $data = array(
                 'format' => $request->getRequestFormat(),
-                'template' => 'D20Campaign/created',
-                'D20Campaign' => $D20Campaign,
+                'template' => 'D20Item/created',
+                'Item' => $D20Item,
             );
         }
         else
         {
             $data = array(
                 'format' => $request->getRequestFormat(),
-                'template' => 'D20Campaign/create',
+                'template' => 'D20Item/create',
                 'form' => $form->createView(),
             );
         }
         return $this->response($data);
     }
 
-    public function updateAction($D20CampaignId, Request $request)
+    public function updateAction($D20ItemId, Request $request)
     {
-        $D20Campaign = $this->getDoctrine()
-            ->getRepository('AppBundle:D20Campaign')
-            ->find($D20CampaignId);
+        $D20Item = $this->getDoctrine()
+            ->getRepository('AppBundle:D20Item')
+            ->find($D20ItemId);
 
-        if (!$D20Campaign) {
+        if (!$D20Item) {
             throw $this->createNotFoundException(
-                'No product found for id '.$D20CampaignId
+                'No product found for id '.$D20ItemId
             );
         }
 
-        $form = $this->createForm(D20CampaignType::class, $D20Campaign);
+        $form = $this->createForm(D20ItemType::class, $D20Item);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
             $this->persist($form);
             $data = array(
                 'format' => $request->getRequestFormat(),
-                'template' => 'D20Campaign/created',
-                'D20Campaign' => $D20Campaign,
+                'template' => 'D20Item/created',
+                'Item' => $D20Item,
             );
         }
         else
         {
             $data = array(
                 'format' => $request->getRequestFormat(),
-                'template' => 'D20Campaign/create',
+                'template' => 'D20Item/create',
                 'form' => $form->createView(),
             );
         }

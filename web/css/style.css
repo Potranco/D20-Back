@@ -1,0 +1,27 @@
+body { background: #F5F5F5; font: 18px/1.5 sans-serif; margin: 0px; padding: 0px; vertical-align: top; }
+p { margin: 0 0 1em 0; }
+a { color: #0000F0; }
+a:hover { text-decoration: none; }
+#wrapper { background: #ddd; display: inline-block; vertical-align: top; }
+
+.header {
+    background: indigo;
+    color: #fff;
+    padding: 5px;
+    margin: 0;
+}
+
+.sidebar {
+    background: #4b0082;
+    color: #fff;
+    padding: 5px;
+    margin: 0;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.sidebar A {
+    color: #fff;
+}
+
+
